@@ -27,3 +27,7 @@ Route::get('/auth/logout', 'Auth\LoginController@logout');
 
 Route::get('/test', 'TestController@sample');
 Route::post('/test', 'TestController@post');
+
+Route::get('/checkbox', 'CheckBoxTestController@get');
+Route::post('/checkbox', 'CheckBoxTestController@post');
+

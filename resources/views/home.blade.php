@@ -30,7 +30,13 @@
                         </tr>
                         <tr>
                             <th>
-                                <a href="/auth/register">登録</a> @endif
+                                <a href="/auth/register">登録</a>
+                            </th>
+                        </tr>
+                        @endif
+                        <tr>
+                            <th>
+                                <a href="/checkbox">checkbox test</a><br />
                             </th>
                         </tr>
                         <div class="form-group row">
