@@ -16,6 +16,11 @@ class EventServiceProvider extends ServiceProvider
         'App\Events\Event' => [
             'App\Listeners\EventListener',
         ],
+
+        // 登録されたときにメールを送信する
+        'Illuminate\Auth\Events\Registered' => [
+            'App\Listeners\RegisteredListener',
+        ],
     ];
 
     /**
